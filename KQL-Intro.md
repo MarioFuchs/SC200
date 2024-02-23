@@ -1,1 +1,3 @@
 # KQL Introduction
+
+`Threads | where |`

@@ -19,3 +19,6 @@
 - TestFile_OfficeChildProcess_D4F940AB-401B-4EFC-AADC-AD5F3C50688A.docm
 - TestFile_PsexecAndWMICreateProcess_D1E49AAC-8F56-4280-B9BA-993A6D77406C.vbs
 - UNSIGNED_ransomware_test_exe.exe
+
+## Web-Links, Blogs und mehr
+[hier](Weblinks.md)

@@ -21,4 +21,4 @@
 - UNSIGNED_ransomware_test_exe.exe
 
 ## Web-Links, Blogs und mehr
-[hier](Weblinks.md)
+[hier](/Weblinks.md)

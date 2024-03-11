@@ -24,6 +24,7 @@
 [hier](/WebLinks.md)
 
 ## Cross Product Simulation Script
+Triggers multiple attacks.
 
 ```
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;

@@ -31,10 +31,10 @@ Triggers multiple attacks.
 $xor = [System.Text.Encoding]::UTF8.GetBytes('WinATP-Intro-Injection');
 $base64String =	(Invoke-WebRequest -URI	https://wcdstaticfilesprdeus.blob.core.windows.net/wcdstaticfiles/MTP_Fileless_Recon.txt -UseBasicParsing).Content;
 Try{ 
-    $contentBytes =	[System.Convert]::FromBase64String($base64String) 
+    $contentBytes = [System.Convert]::FromBase64String($base64String) 
 } 
 Catch { 
-    $contentBytes =	[System.Convert]::FromBase64String($base64String.Substring(3)) 
+    $contentBytes = [System.Convert]::FromBase64String($base64String.Substring(3)) 
 };
 
 $i = 0;	

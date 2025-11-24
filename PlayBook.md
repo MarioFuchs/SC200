@@ -117,6 +117,9 @@ SecurityEvent
 | extend StartDir =  substring(ProcessName,0, string_size(ProcessName)-string_size(Process))
 | order by StartDir desc, Process asc
 ```
-
+# Module 7 - Sentinel
+* Detect and respond to modern attacks with unified SIEM and XDR capabilities [Interactive Guide](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
+* [Azure Lighthouse explained](https://sec.ch9.ms/ch9/a775/eefb5ef1-305b-47b2-9ab8-97270549a775/ask-for-azure-lighthouse_high.mp4)
+* 
 
 

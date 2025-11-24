@@ -1,4 +1,4 @@
-# Mod 1
+# Module 1 - Mitigate Threads mit Defender XDR
 
 ## Introduction
 ```
@@ -21,4 +21,10 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 
 ## Defender for Identity
 * Investigate and respond to attacks with Microsoft Defender for Identity [Interactive Guide](https://mslearn.cloudguides.com/guides/Investigate%20and%20respond%20to%20attacks%20with%20Microsoft%20Defender%20for%20Identity)
-* 
+* Interactive Guide [Guided Demo](https://aka.ms/MSDefenderforIdentity-IG)
+
+## Defender for Cloud Apps
+* Interactive Guide [Guided Demo](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
+
+# Module 2 - Security Copilot
+[Start-Page https://securitycopilot.Microsoft.com](https://securitycopilot.Microsoft.com)

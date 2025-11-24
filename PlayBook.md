@@ -96,8 +96,13 @@ mpruncmd.exe -getfiles
 ## Device Onboarding
 * [Agent Overview und Logfiles](https://learn.microsoft.com/de-de/azure/azure-arc/servers/agent-overview)
 * [Install Agent https://aka.ms/AzureConnectedMachineAgent](https://aka.ms/AzureConnectedMachineAgent)
+* Connect Machine
 ```
 azcmagent connect --subscription-id "Production" --resource-group "HybridServers" --location "eastus"
+```
+* Show Agent Status
+```
+azcmagent show
 ```
 
 # Module 6 - KQL

@@ -75,6 +75,21 @@ Search-UnifiedAuditLog
 * Threat and vulnerability management: discovery & remediation [Video](https://www.microsoft.com/videoplayer/embed/RE4qLVs?rel=0)
 * Threat and Vulnerability Management [Interactive Guide](https://aka.ms/MSDE_TVM_IG)
 
+## Event Logging
+Application and Services Logs > Microsoft > Windows > SENSE > Operational
+Application and Services Logs > Microsoft > Windows > Windows-Defender > Operational
+Application and Services Logs > Microsoft > Windows > CodeIntegrity > Operational
+
+## ASR Rules
+```
+Get-MpPreference | Format-List *Attack*
+```
+## Tools
+* [MDE Cient Analyzer](https://learn.microsoft.com/en-us/defender-endpoint/overview-client-analyzer)
+```
+mpruncmd.exe -getfiles
+```
+
 # Module 5 - Defender for Cloud
 ## Plan cloud workload protections
 * [Guided Demo](https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center)

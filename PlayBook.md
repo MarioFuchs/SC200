@@ -93,6 +93,12 @@ mpruncmd.exe -getfiles
 # Module 5 - Defender for Cloud
 ## Plan cloud workload protections
 * [Guided Demo](https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center)
+## Device Onboarding
+* [Agent Overview und Logfiles](https://learn.microsoft.com/de-de/azure/azure-arc/servers/agent-overview)
+* [Install Agent https://aka.ms/AzureConnectedMachineAgent](https://aka.ms/AzureConnectedMachineAgent)
+```
+azcmagent connect --subscription-id "Production" --resource-group "HybridServers" --location "eastus"
+```
 
 # Module 6 - KQL
 * [KQL quick reference](https://docs.microsoft.com/en-us/azure/data-explorer/kql-quick-reference)

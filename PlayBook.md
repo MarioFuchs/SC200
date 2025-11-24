@@ -120,6 +120,9 @@ SecurityEvent
 # Module 7 - Sentinel
 * Detect and respond to modern attacks with unified SIEM and XDR capabilities [Interactive Guide](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
 * [Azure Lighthouse explained](https://sec.ch9.ms/ch9/a775/eefb5ef1-305b-47b2-9ab8-97270549a775/ask-for-azure-lighthouse_high.mp4)
-* 
+
+# Module 8 - Connect Logs to Sentinel
+* Discover Devices [Video](https://www.youtube.com/watch?v=TCDxICrZQa8)
+* Assess and Onboard unmanaged devices [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4RwQz?postJsllMsg=true)
 
 

@@ -63,6 +63,60 @@ Search-UnifiedAuditLog
 # Module 5 - Defender for Cloud
 ## Plan cloud workload protections
 * [Guided Demo](https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center)
-* 
+
+# Module 6 - KQL
+* [KQL quick reference](https://docs.microsoft.com/en-us/azure/data-explorer/kql-quick-reference)
+* Search & Where
+```
+search in (SecurityEvent,App*) "PowerShell"
+
+SecurityEvent
+| where TimeGenerated > ago(1h)
+
+SecurityEvent
+| where TimeGenerated > ago(1h) and EventID == "4624"
+
+SecurityEvent
+| where TimeGenerated > ago(1h)
+| where EventID == 4624
+| where AccountType =~ "user"
+
+SecurityEvent | where EventID in (4624, 4625)
+```
+* Variablen
+```
+let timeOffset = 1h;
+let discardEventId = 4688;
+SecurityEvent
+| where TimeGenerated > ago(timeOffset*2) and TimeGenerated < ago(timeOffset)
+| where EventID != discardEventId
+
+
+let LowActivityAccounts =
+    SecurityEvent 
+    | summarize cnt = count() by Account 
+    | where cnt < 1000;
+LowActivityAccounts | where Account contains "sql"
+```
+* Extend
+```
+SecurityAlert
+| where TimeGenerated > ago(7d)
+| extend severityOrder = case (
+    AlertSeverity == "High", 3,
+    AlertSeverity == "Medium", 2, 
+    AlertSeverity == "Low", 1,
+    AlertSeverity == "Informational", 0,
+    -1)
+```
+* Order by
+```
+SecurityEvent
+| where TimeGenerated > ago(1h) 
+| where ProcessName != "" and Process != ""
+| extend StartDir =  substring(ProcessName,0, string_size(ProcessName)-string_size(Process))
+| order by StartDir desc, Process asc
+```
+
 
 

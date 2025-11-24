@@ -34,6 +34,15 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 * Explore Embedded Experience [Simulation](https://app.highlights.guide/start/be8a91c3-3979-4048-ad38-fd38deaf7117?token=045faae1-1078-4eac-bf56-e12472eddaf9&azure-portal=true)
 * [Use Cases](https://learn.microsoft.com/en-us/training/modules/security-copilot-exercises/)
 
+## Enable Unified Auditing
+```
+Install-Module ExchangeOnlineManagement
+Connect-ExchangeOnline
+Get-AdminAuditLogConfig | Format-List UnifiedAuditLogIngestionEnabled
+Enable-OrganizationCustomization (optional)
+Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
+```
+
 # Module 3 - Purview
 ## Compliance Solutions
 * Insider Risk Management [Guided Demo Link](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365)

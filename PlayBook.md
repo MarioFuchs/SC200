@@ -37,3 +37,30 @@ Enable in Portal
 ```
 Search-UnifiedAuditLog
 ```
+
+# Module 4 - Defender for Endpoint
+## Protect Against Threads
+* Microsoft Defender for Endpoint – Architecture [Video](https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0&postJsllMsg=true)
+* Incident Investigation [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4qLUV?rel=0&postJsllMsg=true)
+## Deployment
+* Onboarding Clients [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr?rel=0&postJsllMsg=true)
+* RBAC [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4bJ2a?rel=0&postJsllMsg=true)
+## Windows Security Enhancements
+* Attack Surface Reducation [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4woug?postJsllMsg=true)
+## Device Investigations
+* Defender EDR Mode [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4HjW2?rel=0&postJsllMsg=true)
+* [Discover Devices](https://www.youtube.com/watch?v=TCDxICrZQa8)
+* [Assess and Onboard Unmanaged Devices](https://www.microsoft.com/en-us/videoplayer/embed/RE4RwQz?postJsllMsg=true) - NOT UPDATED
+* Live Response [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4qLUW?rel=0&postJsllMsg=true)
+* Deep Analysis [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4aAYy?rel=0&postJsllMsg=true)
+## Automation
+* Microsoft Defender for Endpoint: Conditional access [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4byD1?rel=0&postJsllMsg=true)
+* Unified IoCs [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4qLVw?rel=0&postJsllMsg=true)
+## Vulnerability Management
+* Threat and vulnerability management: discovery & remediation [Video](https://www.microsoft.com/videoplayer/embed/RE4qLVs?rel=0)
+* Threat and Vulnerability Management [Interactive Guide](https://aka.ms/MSDE_TVM_IG)
+* 
+
+
+
+

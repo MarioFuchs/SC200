@@ -27,7 +27,12 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 * Interactive Guide [Guided Demo](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
 
 # Module 2 - Security Copilot
-[Start-Page https://securitycopilot.Microsoft.com](https://securitycopilot.Microsoft.com)
+* [Start-Page https://securitycopilot.Microsoft.com](https://securitycopilot.Microsoft.com)
+* Provision Capacity - Step 1 [Simulation](https://app.highlights.guide/start/6d7270b9-7187-456a-ac16-97bc227d5c27?token=045faae1-1078-4eac-bf56-e12472eddaf9&link=1&azure-portal=true)
+* Provision Capacity - Step 2 [Simulation](https://app.highlights.guide/start/6d7270b9-7187-456a-ac16-97bc227d5c27?token=045faae1-1078-4eac-bf56-e12472eddaf9&link=1&azure-portal=true)
+* Explore Standalone Experience [Simulation](https://app.highlights.guide/start/7608581a-ee3a-4fe0-be03-309a58b78c60?token=045faae1-1078-4eac-bf56-e12472eddaf9&azure-portal=true)
+* Explore Embedded Experience [Simulation](https://app.highlights.guide/start/be8a91c3-3979-4048-ad38-fd38deaf7117?token=045faae1-1078-4eac-bf56-e12472eddaf9&azure-portal=true)
+* [Use Cases](https://learn.microsoft.com/en-us/training/modules/security-copilot-exercises/)
 
 # Module 3 - Purview
 ## Compliance Solutions

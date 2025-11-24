@@ -28,3 +28,12 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 
 # Module 2 - Security Copilot
 [Start-Page https://securitycopilot.Microsoft.com](https://securitycopilot.Microsoft.com)
+
+# Module 3 - Purview
+## Compliance Solutions
+* Insider Risk Management [Guided Demo Link](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365)
+## Purview Audit
+Enable in Portal
+```
+Search-UnifiedAuditLog
+```

@@ -42,6 +42,7 @@ Get-AdminAuditLogConfig | Format-List UnifiedAuditLogIngestionEnabled
 Enable-OrganizationCustomization (optional)
 Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
 ```
+Enable Purview Audit Logs in Portal
 
 # Module 3 - Purview
 ## Compliance Solutions

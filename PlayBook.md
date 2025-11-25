@@ -77,7 +77,9 @@ Search-UnifiedAuditLog
 
 ## Event Logging
 Application and Services Logs > Microsoft > Windows > SENSE > Operational
+
 Application and Services Logs > Microsoft > Windows > Windows-Defender > Operational
+
 Application and Services Logs > Microsoft > Windows > CodeIntegrity > Operational
 
 ## ASR Rules

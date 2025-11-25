@@ -99,6 +99,11 @@ Get-MpPreference | Format-List *Attack*
 ```
 mpruncmd.exe -getfiles
 ```
+### Attack Samples
+**Download EICAR Test File**
+```
+Invoke-WebRequest -Uri https://secure.eicar.org/eicar.com -OutFile testfile.com
+```
 
 # Module 5 - Defender for Cloud
 ## Plan cloud workload protections

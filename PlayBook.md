@@ -176,6 +176,6 @@ SecurityEvent
 * Discover Devices [Video](https://www.youtube.com/watch?v=TCDxICrZQa8)
 * Assess and Onboard unmanaged devices [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE4RwQz?postJsllMsg=true)
 * Connect Defender XDR [Simulation](https://app.highlights.guide/start/1c894b46-4b0a-40cb-b0f0-1e1c86c615f3?token=16d48b6c-eace-4a1f-8050-098d29d23a89)
-* 
+* [Custom Event Log Collector Rules](https://learn.microsoft.com/en-us/azure/azure-monitor/vm/data-collection-windows-events#filter-events-using-xpath-queries)
 
 

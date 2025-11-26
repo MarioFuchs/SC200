@@ -104,6 +104,9 @@ mpruncmd.exe -getfiles
 ```
 Invoke-WebRequest -Uri https://secure.eicar.org/eicar.com -OutFile testfile.com
 ```
+```
+Invoke-WebRequest -Uri https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip -OutFile mimikatz.zip
+```
 
 # Module 5 - Defender for Cloud
 ## Plan cloud workload protections
